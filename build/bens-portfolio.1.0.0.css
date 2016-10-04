@@ -1,0 +1,88 @@
+@import url(https://fonts.googleapis.com/css?family=Chathura:400,700);
+html body {
+  font-family: 'Chathura';
+  color: #454343;
+  font-size: 25px;
+  width: 100%;
+}
+html body a {
+  text-decoration: none;
+  color: inherit;
+}
+html body .app {
+  width: 100%;
+  table-layout: fixed;
+}
+html body .app .children {
+  max-width: 750px;
+  margin: 0 auto;
+}
+html body .app .children .main {
+  margin: 0 auto;
+  max-width: 750px;
+  border-spacing: 0;
+}
+html body .app .children .main .landing td,
+html body .app .children .main .portfolio-row td {
+  padding: 0;
+}
+html body .app .children .main .landing td .img,
+html body .app .children .main .portfolio-row td .img {
+  margin: 0 auto;
+  width: 100%;
+}
+html body .app .children .main .landing td .img .space,
+html body .app .children .main .portfolio-row td .img .space {
+  height: 30px;
+  border-bottom: 0.5px solid #c4c3c3;
+  width: 80%;
+  margin: 0 auto;
+}
+html body .app .children .main .landing td .img .portfolio-img,
+html body .app .children .main .portfolio-row td .img .portfolio-img {
+  border: 0.2px solid #c4c3c3;
+}
+html body .app .children .main .landing td .img img,
+html body .app .children .main .portfolio-row td .img img {
+  width: 100%;
+  max-width: 750px;
+  height: auto;
+  border: 0;
+  display: block;
+}
+html body .app .children .main .landing td .img h1,
+html body .app .children .main .portfolio-row td .img h1,
+html body .app .children .main .landing td .img h3,
+html body .app .children .main .portfolio-row td .img h3 {
+  width: 100%;
+  max-width: 750px;
+  display: block;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+html body .app .children .main .landing td .img h1,
+html body .app .children .main .portfolio-row td .img h1 {
+  font-size: 50px;
+  text-align: center;
+  letter-spacing: 20px;
+}
+html body .app .children .main .landing td .img h1 .sup,
+html body .app .children .main .portfolio-row td .img h1 .sup {
+  letter-spacing: 2px;
+}
+html body .app .children .main .landing td .img .long,
+html body .app .children .main .portfolio-row td .img .long {
+  font-size: 40px;
+}
+html body .app .children .main .landing td .img h3,
+html body .app .children .main .portfolio-row td .img h3 {
+  line-height: 1;
+  letter-spacing: 2px;
+  padding-top: 10px;
+  width: 80%;
+  margin: 0 auto;
+}
+html body .app .children .main .portfolio-row {
+  padding-top: 30px;
+}
+/*# sourceMappingURL=bens-portfolio.1.0.0.css.map */
