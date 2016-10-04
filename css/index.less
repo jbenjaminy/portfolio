@@ -1,0 +1,88 @@
+@import url(https://fonts.googleapis.com/css?family=Chathura:400,700);
+@dkGrey: #454343;
+@ltGrey: lighten(@dkGrey, 50%);
+
+html {
+    body {
+        font-family: 'Chathura';
+        color: @dkGrey;
+        font-size: 25px;
+        width: 100%;
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .app {
+            width:100%; 
+            table-layout: fixed;
+            .children {
+                max-width: 750px; 
+                margin: 0 auto;
+                .main {
+                    margin:0 auto; 
+                    max-width: 750px; 
+                    border-spacing: 0;
+                    .landing, .portfolio-row {
+                        td {
+                            padding: 0;
+                            .img {
+                                margin: 0 auto;
+                                width: 100%;
+                                .space {
+                                    height: 30px;
+                                    border-bottom: 0.5px solid @ltGrey;
+                                    width: 80%;
+                                    margin: 0 auto; 
+                                }
+                                .portfolio-img {
+                                    border: 0.2px solid @ltGrey;
+                                }
+                                img {
+                                    width: 100%; 
+                                    max-width: 750px; 
+                                    height: auto; 
+                                    border: 0;
+                                    display: block;
+                                }
+                                h1, h3 {
+                                    width: 100%; 
+                                    max-width: 750px; 
+                                    display: block;
+                                    margin-top: 0;
+                                    margin-bottom: 0;
+                                }
+                                h1 {
+                                    font-size: 50px;
+                                    text-align: center;
+                                    letter-spacing: 20px;
+                                    .sup {
+                                        letter-spacing: 2px;
+                                    }
+                                }
+                                .long {
+                                    font-size: 40px;
+                                }
+                                h3 {
+                                    line-height: 1;
+                                    letter-spacing: 2px;
+                                    padding-top: 10px;
+                                    width: 80%;
+                                    margin: 0 auto;
+                                }
+                            }
+                        }
+                    }
+                    .portfolio-row {
+                        padding-top: 30px;
+                    }
+                }
+                .resume {
+                }
+                .portfolio {
+                }
+            }
+        }
+    }
+}
