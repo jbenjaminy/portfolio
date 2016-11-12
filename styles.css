@@ -60,13 +60,19 @@ a:hover {
     border-top-right-radius: 5px;
 }
 
+.tab:hover {
+    cursor: pointer;
+    color: #FF4C4C;
+}
+
 .space-tab {
-    width: 40%;
+    width: 50%;
 }
 
 .about-tab, .portfolio-tab, .contact-tab {
-    width: 20%;
+    width: 200px;
     height: 50px;
+
 }
 
 .about-tab {
@@ -95,6 +101,9 @@ a:hover {
 .about {
     background-color: #747474;
     height: 200px;
+    // margin-left: 20px;
+    // margin-right: 20px;
+    // padding-bottom: 20px;
 }
 
 /*----- PORTFOLIO SECTION-----*/
@@ -189,7 +198,7 @@ a:hover {
 }
 
 a:hover > .fa {
-    color: #A0A0A9;
+    color: #FF4C4C;
     cursor: pointer;
 }
 

@@ -1,14 +1,15 @@
-$(function() {
-	$('.about-tab').mousedown(function() {
-		$('.main').hide();
+'use strict';
+$(document).ready(function() {
+	$('.about-tab').on('click', function(event) {
+		$('.page').hide();
 		$('.about').show();
 	});
-	$('.portfolio-tab').mousedown(function() {
-		$('.main').hide();
-		$('.porfolio').show();
+	$('.content').on('click', '.portfolio-tab', function(event) {
+		$('.page').hide();
+		$('.portfolio').show();
 	});
-	$('.contact-tab').mousedown(function() {
-		$('.main').hide();
+	$('.contact-tab').on('click', function(event) {
+		$('.page').hide();
 		$('.contact').show();
 	});
 
