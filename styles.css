@@ -1,0 +1,128 @@
+// #D8D8D8
+// #A5A5A5
+// #747474
+// #3F3F3F
+// #282828
+// file-text-o
+// facebook-square vs. facebook-official
+body {
+    font-family: 'Chathura';
+    color: #282828;
+    font-size: 25px;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+//         .app {
+//             width:100%;
+//             position: relative;
+//             table-layout: fixed;
+//             .children {
+//                 max-width: 750px; 
+//                 margin: 0 auto;
+//                 .main {
+//                     margin:0 auto; 
+//                     max-width: 750px; 
+//                     border-spacing: 0;
+//                     .landing, .portfolio-row {
+//                         td {
+//                             padding: 0;
+//                             .img {
+//                                 margin: 0 auto;
+//                                 width: 100%;
+//                                 .space {
+//                                     height: 30px;
+//                                     border-bottom: 0.5px solid @ltGrey;
+//                                     width: 80%;
+//                                     margin: 0 auto; 
+//                                 }
+//                                 .portfolio-img {
+//                                     border: 0.2px solid @ltGrey;
+//                                 }
+//                                 img {
+//                                     width: 100%; 
+//                                     max-width: 750px; 
+//                                     height: auto; 
+//                                     border: 0;
+//                                     display: block;
+//                                 }
+//                                 h1, h3 {
+//                                     width: 100%; 
+//                                     max-width: 750px; 
+//                                     display: block;
+//                                     margin-top: 0;
+//                                     margin-bottom: 0;
+//                                 }
+//                                 h1 {
+//                                     font-size: 50px;
+//                                     text-align: center;
+//                                     letter-spacing: 20px;
+//                                     .sup {
+//                                         letter-spacing: 2px;
+//                                     }
+//                                 }
+//                                 .long {
+//                                     font-size: 40px;
+//                                 }
+//                                 h3 {
+//                                     line-height: 1;
+//                                     letter-spacing: 2px;
+//                                     padding-top: 10px;
+//                                     width: 80%;
+//                                     margin: 0 auto;
+//                                 }
+//                             }
+//                         }
+//                     }
+//                     .portfolio-row {
+//                         padding-top: 30px;
+//                     }
+                
+//         }
+//     }
+// }
+.border-top {
+    top: 20px;
+}
+
+.border-bottom {
+    bottom: 20px;
+}
+
+.border-left {
+    left: 20px;
+}
+
+.border-right {
+    right: 20px;
+}
+
+.border-left, .border-right {
+    width: 3px;
+    top: 20px;
+    bottom: 20px;
+}
+
+.border-top, .border-bottom {
+    height: 3px;
+    left: 20px;
+    right: 20px;
+}
+
+.border-top, .border-bottom, .border-left, .border-right {
+    position: absolute;
+    /* background edits */
+    background-color: #3F3F3F;
+    background-image: none;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position: 0% 0%;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-size: auto auto;
+    z-index: 10;
+}
