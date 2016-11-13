@@ -1,16 +1,7 @@
-// #D8D8D8
-// #A5A5A5
-// #747474
-// #3F3F3F
-// #282828
-// file-text-o
-// facebook-square vs. facebook-official
 body {
     font-family: 'Catamaran';
     color: #282828;
     font-size: 25px;
-    width: 100%;
-    height: 100%;
     margin:0 auto;
 }
 
@@ -28,9 +19,9 @@ a:hover {
 }
 
 /*-------------------- LANDING CONTENT --------------------*/
-.landing-div {
-    margin-left: 51px;
-    margin-right: 51px;
+.top {
+    margin-left: 43px;
+    margin-right: 43px;
 }
 
 .landing-img {
@@ -38,13 +29,13 @@ a:hover {
     height: auto;
     max-width: 900px;
     display: inline-block;
-    margin-top: 51px;
+    margin-top: 43px;
     margin-right: 0;
     vertical-align: top;
 }
 
 .landing-text {
-    margin-top:51px;
+    margin-top: 43px;
     max-width: 45px;
     width: 3%;
     height: auto;
@@ -54,15 +45,27 @@ a:hover {
 
 /*--------------------- MAIN CONTENT ---------------------*/
 
-.content {
+.bottom {
     width: 100%;
+}
+
+.page {
+    margin-bottom: 8px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.content {
+    margin-left: 35px;
+    margin-right: 35px;
 }
 
 /*---------- TAB SECTION ---------*/
 
 .tabs-div {
-    margin-right: 51px;
-    margin-left: 51px;
+    margin-right: 43px;
+    margin-left: 43px;
+    margin-bottom: -1px;
 }
 
 .tab {
@@ -108,7 +111,7 @@ a:hover {
 
 .contact-tab {
     background-color: #282828;
-    color: #A7A7A7;
+    color: #F1F1F1;
 }
 
 .tab-txt {
@@ -127,10 +130,15 @@ a:hover {
 
 .about {
     background-color: #747474;
-    height: 200px;
-    // margin-left: 20px;
-    // margin-right: 20px;
-    // padding-bottom: 20px;
+    display: none;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 25px;
+    padding-bottom: 37px;
+    font-size: 15px;
 }
 
 /*----- PORTFOLIO SECTION-----*/
@@ -139,8 +147,7 @@ a:hover {
     background-color: #3F3F3F;
     color: #A5A5A5;
     text-align: center;
-    display: none;
-    height: 200px;
+    height: 300px;
 }
 
 .row {
@@ -207,16 +214,17 @@ a:hover {
     background-color: #282828;
     color: #D8D8D8;
     display: none;
-    height: 200px;
+    height: 300px;
 }
 
 /*-- ICONS --*/
 
 .fa {
-    text-align: center;
+    width: 5%;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 10%;
     display: inline-block;
-    margin-left: 15px;
-    margin-right: 15px;
     color: #F5F5F5;
 }
 
@@ -236,7 +244,7 @@ a:hover > .fa {
 }
 
 .border-bottom {
-    bottom: 20px;
+    bottom: 13px;
 }
 
 .border-left {
@@ -250,7 +258,7 @@ a:hover > .fa {
 .border-left, .border-right {
     width: 3px;
     top: 20px;
-    bottom: 20px;
+    bottom: 13px;
 }
 
 .border-top, .border-bottom {

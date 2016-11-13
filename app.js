@@ -4,7 +4,7 @@ $(document).ready(function() {
 		$('.page').hide();
 		$('.about').show();
 	});
-	$('.content').on('click', '.portfolio-tab', function(event) {
+	$('.portfolio-tab').on('click', function(event) {
 		$('.page').hide();
 		$('.portfolio').show();
 	});
@@ -13,10 +13,10 @@ $(document).ready(function() {
 		$('.contact').show();
 	});
 
-	$('.screenshot').mouseenter(function() {
-		$('.description').show();
-	})
-	.mouseleave(function() {
-      $('.description').hide();
-	});
+	// $('.screenshot').mouseenter(function() {
+	// 	$('.description').show();
+	// })
+	// .mouseleave(function() {
+ //      $('.description').hide();
+	// });
 });
