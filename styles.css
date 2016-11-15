@@ -182,7 +182,7 @@ p {
 .proj-image {
     position: relative;
     margin: 0 auto;
-
+    padding-bottom: 50px;
 }
 
 .image, .hover-image {
