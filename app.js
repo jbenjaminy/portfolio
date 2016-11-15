@@ -13,9 +13,14 @@ $(document).ready(function() {
 		$('.contact').show();
 	});
 
-	$('.image').hover(function() {
+	$('.proj-image').mouseenter(function() {
 		$('.image').hide();
 		$('.hover-image').show();
 		$('.description').show();
-	});
+	})
+	$('.proj-image').mouseleave(function() {
+		$('.image').show();
+		$('.hover-image').hide();
+		$('.description').hide();
+	})
 });

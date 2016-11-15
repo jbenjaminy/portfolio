@@ -147,7 +147,6 @@ p {
     background-color: #3F3F3F;
     color: #A5A5A5;
     text-align: center;
-    height: 300px;
 }
 
 .row {
@@ -156,14 +155,16 @@ p {
 
 /*-- TITLE --*/
 
-.title, .description {
+.title, .description, .proj-image {
     max-width: 1000px;
     margin-top: 0;
     margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .title {
-    font-size: 50px;
+    font-size: 70px;
     letter-spacing: 20px;
     font-family: 'Chathura';
 }
@@ -179,8 +180,9 @@ p {
 /*-- SCREENSHOT --*/
 
 .proj-image {
-    position: relative; 
-    width: 100%;
+    position: relative;
+    margin: 0 auto;
+
 }
 
 .image, .hover-image {
@@ -196,11 +198,16 @@ p {
 
 .description {
     position: absolute; 
-    width: 95%;
-    top: 200px; 
+    top: 100px; 
     left: 0; 
     line-height: 1;
     letter-spacing: 2px;
+    display: none;
+    text-align: left;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: #282828;
 }
 
 /*-- ICONS --*/
