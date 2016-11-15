@@ -156,14 +156,13 @@ p {
 
 /*-- TITLE --*/
 
-.proj-title, .proj-txt {
-    width: 100%;
+.title, .description {
     max-width: 1000px;
     margin-top: 0;
     margin-bottom: 0;
 }
 
-.proj-title {
+.title {
     font-size: 50px;
     letter-spacing: 20px;
     font-family: 'Chathura';
@@ -179,24 +178,29 @@ p {
 
 /*-- SCREENSHOT --*/
 
-.proj-img {
+.proj-image {
+    position: relative; 
+    width: 100%;
+}
+
+.image, .hover-image {
     width: 100%;
     height: auto;
     max-width: 1000px;
     margin: 0 auto;
 }
 
-/*-- DESCRIPTION --*/
-
-.description {
-
+.hover-image {
+    display: none;
 }
 
-.proj-txt {
+.description {
+    position: absolute; 
+    width: 95%;
+    top: 200px; 
+    left: 0; 
     line-height: 1;
     letter-spacing: 2px;
-    padding-top: 10px;
-    margin: 0 auto;
 }
 
 /*-- ICONS --*/

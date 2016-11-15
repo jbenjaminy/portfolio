@@ -13,10 +13,9 @@ $(document).ready(function() {
 		$('.contact').show();
 	});
 
-	// $('.screenshot').mouseenter(function() {
-	// 	$('.description').show();
-	// })
-	// .mouseleave(function() {
- //      $('.description').hide();
-	// });
+	$('.image').hover(function() {
+		$('.image').hide();
+		$('.hover-image').show();
+		$('.description').show();
+	});
 });
