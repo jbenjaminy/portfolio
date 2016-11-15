@@ -197,6 +197,7 @@ p {
 }
 
 .description {
+    background-color: rgba(245, 245, 245, .7);
     position: absolute; 
     top: 100px; 
     left: 0; 
@@ -210,13 +211,26 @@ p {
     color: #282828;
 }
 
-/*-- ICONS --*/
+.desc-title {
+    font-size: 30px;
+    font-style: italic;
+}
 
-.gh, .dt {
-    margin-left: 5px;
-    margin-right: 5px;
+/*-- ICONS --*/
+.proj-icons {
+    width: 12.5%;
+    margin-right: 0;
+    margin-left: 25%;
     display: inline-block;
-    text-align: left;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.gh {
+    color: #6CC644;
+}
+
+.lt {
+    color: #BD2C00;
 }
 
 /*----- CONTACT SECTION -----*/
@@ -230,13 +244,16 @@ p {
 
 /*-- ICONS --*/
 
-.fa {
+.contact > .fa {
     width: 5%;
     margin-left: 0;
     margin-right: 0;
     padding-left: 10%;
     display: inline-block;
-    color: #F5F5F5;
+}
+
+.contact > .fa {
+
 }
 
 .fa-linkedin {
