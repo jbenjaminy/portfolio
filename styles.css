@@ -197,7 +197,8 @@ p {
 }
 
 .description {
-    background-color: rgba(245, 245, 245, .7);
+    background-color: rgba(255, 255, 255, .7);
+    font-size: 22px;
     position: absolute; 
     top: 100px; 
     left: 0; 
@@ -212,8 +213,13 @@ p {
 }
 
 .desc-title {
-    font-size: 30px;
     font-style: italic;
+    text-decoration: underline;
+}
+
+.cent-title {
+    font-style: italic;
+    text-align: center;
 }
 
 /*-- ICONS --*/
@@ -244,16 +250,12 @@ p {
 
 /*-- ICONS --*/
 
-.contact > .fa {
+.contact-fa {
     width: 5%;
     margin-left: 0;
     margin-right: 0;
     padding-left: 10%;
     display: inline-block;
-}
-
-.contact > .fa {
-
 }
 
 .fa-linkedin {
