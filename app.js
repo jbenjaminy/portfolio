@@ -27,14 +27,14 @@ $(document).ready(function() {
 	});
 
 	$('.proj-image').mouseenter(function() {
-		$('.image').hide();
-		$('.hover-image').show();
-		$('.description').show();
+		$('.image', this).hide();
+		$('.hover-image', this).show();
+		$('.description', this).show();
 	})
 
 	$('.proj-image').mouseleave(function() {
-		$('.image').show();
-		$('.hover-image').hide();
-		$('.description').hide();
+		$('.image', this).show();
+		$('.hover-image', this).hide();
+		$('.description', this).hide();
 	})
 });
