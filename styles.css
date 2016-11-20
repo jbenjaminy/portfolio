@@ -1,5 +1,5 @@
 body {
-    font-family: 'Catamaran';
+    font-family: 'Quattrocento Sans';
     color: #282828;
     font-size: 25px;
     margin:0 auto;
@@ -98,7 +98,7 @@ a:hover {
 }
 
 .about-tab {
-    background-color: #747474;
+    background-color: #a6a6a6;
     margin-left: 2%;
 }
 
@@ -129,17 +129,20 @@ a:hover {
 /*----- ABOUT SECTION------*/
 
 .about {
-    background-color: #747474;
+    background-color: #a6a6a6;
     display: none;
-    height: 700px;
 }
 
 p {
+    width: 80%;
+    margin: 0 auto;
     margin-top: 0;
     margin-bottom: 0;
-    padding-top: 25px;
-    padding-bottom: 37px;
-    font-size: 15px;
+    padding-top: 113.9px;
+    padding-bottom: 113.9px;
+    font-size: 25px;
+    line-height: 1.5;
+    // font-weight: bold;
 }
 
 /*----- PORTFOLIO SECTION-----*/
@@ -300,7 +303,7 @@ a:hover > .fa {
 
 .border-top, .border-bottom, .border-left, .border-right {
     position: absolute;
-    background-color: #A5A5A5;
+    background-color: #747474;
     background-image: none;
     background-repeat: repeat;
     background-attachment: scroll;
