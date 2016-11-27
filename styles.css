@@ -340,6 +340,11 @@ a:hover > .fa {
     .contact-fa {
         font-size: 2em;
     }
+    p {
+        font-size: 20px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
 }
 @media only screen and (max-width:420px) {
     .tab {
