@@ -320,4 +320,15 @@ a:hover > .fa {
     .desc-body {
         display: none;
     }
+    .space-tab {
+        width: 0;
+    }
+    .tabs {
+        width: 100%;
+        display: inline-block;
+    }
+    .title {
+        font-size: 30px;
+        letter-spacing: 5px;
+    }
 }
