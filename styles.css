@@ -258,6 +258,7 @@ p {
     margin-right: 0;
     padding-left: 10%;
     display: inline-block;
+    font-size: 3em;
 }
 
 .fa-linkedin {
@@ -336,7 +337,7 @@ a:hover > .fa {
         font-size: 45px;
         letter-spacing: 5px;
     }
-    .fa-3x {
+    .contact-fa {
         font-size: 2em;
     }
 }
@@ -350,7 +351,7 @@ a:hover > .fa {
     .cent-title {
         display: none;
     }
-    .fa-3x {
+    .contact-fa {
         font-size: 1em;
     }
     p {
