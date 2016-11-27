@@ -336,6 +336,9 @@ a:hover > .fa {
         font-size: 45px;
         letter-spacing: 5px;
     }
+    .fa-3x {
+        font-size: 2em;
+    }
 }
 @media only screen and (max-width:420px) {
     .tab {
@@ -346,5 +349,13 @@ a:hover > .fa {
     }
     .cent-title {
         display: none;
+    }
+    .fa-3x {
+        font-size: 1em;
+    }
+    p {
+        font-size: 18px;
+        padding-top: 30px;
+        padding-bottom: 30px;
     }
 }
