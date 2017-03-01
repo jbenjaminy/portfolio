@@ -1,5 +1,6 @@
 body {
-    font-family: 'Quattrocento Sans';
+    font-family: 'Kanit';
+    font-weight: 200;
     color: #282828;
     font-size: 25px;
     margin:0 auto;
@@ -66,13 +67,15 @@ a:hover {
     margin-right: 43px;
     margin-left: 43px;
     margin-bottom: -1px;
+    margin-top: 25px;
 }
 
 .tab {
     display: inline-block;
-    text-align: center;        
-    font-family: 'Chathura';
-    font-size: 26px;
+    text-align: center;
+    font-family: 'Exo 2';
+    font-weight: 200;
+    font-size: 16px;
     border-top-left-radius: 7px;
     border-top-right-radius: 7px;
     letter-spacing: 5px;
@@ -115,7 +118,7 @@ a:hover {
 }
 
 .tab-txt {
-    margin-top: 5px;
+    margin-top: 12.5px;
     margin-bottom: 0;
 }
 
@@ -168,17 +171,20 @@ p {
 }
 
 .title {
-    font-size: 70px;
+    font-size: 50px;
     letter-spacing: 20px;
-    font-family: 'Chathura';
+    font-family: 'Exo 2';
+    font-weight: 200;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+
+.long-title {
+    font-size: 40px;
 }
 
 .sup {
     letter-spacing: 2px;
-}
-
-.long {
-    font-size: 40px;
 }
 
 /*-- SCREENSHOT --*/
@@ -186,7 +192,7 @@ p {
 .proj-image {
     position: relative;
     margin: 0 auto;
-    padding-bottom: 50px;
+    padding-bottom: 40px;
 }
 
 .image, .hover-image {
@@ -202,10 +208,10 @@ p {
 
 .description {
     background-color: rgba(255, 255, 255, .7);
-    font-size: 23px;
-    position: absolute; 
-    top: 50px; 
-    left: 0; 
+    font-size: 20px;
+    position: absolute;
+    top: 50px;
+    left: 0;
     line-height: 1;
     letter-spacing: 2px;
     display: none;
