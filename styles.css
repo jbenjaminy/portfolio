@@ -66,7 +66,7 @@ a:hover {
 .tabs-div {
     margin-right: 43px;
     margin-left: 43px;
-    margin-bottom: -1px;
+    margin-bottom: 0px;
     margin-top: 25px;
 }
 
@@ -75,7 +75,7 @@ a:hover {
     text-align: center;
     font-family: 'Exo 2';
     font-weight: 200;
-    font-size: 16px;
+    font-size: 14px;
     border-top-left-radius: 7px;
     border-top-right-radius: 7px;
     letter-spacing: 5px;
@@ -97,7 +97,7 @@ a:hover {
 
 .about-tab, .portfolio-tab, .contact-tab {
     width: 32%;
-    height: 50px;
+    height: 35px;
 }
 
 .about-tab {
@@ -118,7 +118,7 @@ a:hover {
 }
 
 .tab-txt {
-    margin-top: 12.5px;
+    margin-top: 8px;
     margin-bottom: 0;
 }
 
@@ -141,11 +141,10 @@ p {
     margin: 0 auto;
     margin-top: 0;
     margin-bottom: 0;
-    padding-top: 113.9px;
-    padding-bottom: 113.9px;
+    padding-top: 75px;
+    padding-bottom: 75px;
     font-size: 25px;
     line-height: 1.5;
-    // font-weight: bold;
 }
 
 /*----- PORTFOLIO SECTION-----*/
@@ -169,7 +168,9 @@ p {
     margin-left: auto;
     margin-right: auto;
 }
-
+.first-title {
+    padding-top: 50px;
+}
 .title {
     font-size: 50px;
     letter-spacing: 20px;
@@ -227,9 +228,6 @@ p {
     text-decoration: underline;
 }
 
-.cent-title {
-}
-
 /*-- ICONS --*/
 .proj-icons {
     width: 12.5%;
@@ -262,7 +260,7 @@ p {
     width: 5%;
     margin-left: 0;
     margin-right: 0;
-    padding-left: 10%;
+    padding-left: 9.5%;
     display: inline-block;
     font-size: 3em;
 }
@@ -319,11 +317,52 @@ a:hover > .fa {
     z-index: 10;
 }
 @media only screen and (max-width:1000px) {
+
+    .tabs-div {
+        margin-top: 0px;
+    }
     .description {
         font-size: 18px;
+        top: 15px;
+    }
+    .first-title {
+        padding-top: 40px;
+    }
+    .proj-image {
+        padding-bottom: 40px;
+    }
+    .tab-txt {
+        font-size: 12px;
+        margin-top: 10px;
+    }
+    .title {
+        font-size: 45px;
+        letter-spacing: 10px;
+    }
+    .long-title {
+        font-size: 36px;
+        letter-spacing: 10px;
+    }
+    p {
+        font-size: 25px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        width: 85%;
+    }
+    .contact-fa {
+        padding-left: 9%;
     }
 }
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:800px) {
+    .description {
+        font-size: 15px;
+    }
+    .tab-txt {
+        font-size: 9px;
+    }
+}
+
+@media only screen and (max-width:800px) {
     .desc-body {
         display: none;
     }
@@ -334,40 +373,113 @@ a:hover > .fa {
         width: 100%;
         display: inline-block;
     }
-    .tab {
-        font-size: 20px;
+    .tabs-div {
+        margin-bottom: -2px;
     }
-    .about-tab, .portfolio-tab, .contact-tab {
+    .tab-txt {
+        font-size: 14px;
+    }
+    .first-title {
+        padding-top: 30px;
+    }
+    .description {
+        font-size: 12px;
+        text-align: center;
+        top: 100px;
+    }
+    .proj-icons {
+        margin-left: 15%;
+        margin-right: 15%;
     }
     .title {
-        font-size: 45px;
+        font-size: 35px;
+        letter-spacing: 5px;
+    }
+    .long-title {
+        font-size: 30px;
         letter-spacing: 5px;
     }
     .contact-fa {
         font-size: 2em;
     }
     p {
-        font-size: 20px;
+        font-size: 19px;
         padding-top: 50px;
         padding-bottom: 50px;
     }
 }
-@media only screen and (max-width:420px) {
-    .tab {
-        font-size: 17px;
+@media only screen and (max-width:700px) {
+    .description {
+        font-size: 10px;
+    }
+    .proj-image {
+        padding-bottom: 30px;
+    }
+}
+@media only screen and (max-width:600px) {
+    .about-tab, .portfolio-tab, .contact-tab {
+        height: 30px;
+    }
+    .tabs-div {
+        margin-top: 20px;
+    }
+    .tab-txt {
+        font-size: 12px;
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+    .first-title {
+        padding-top: 20px;
     }
     .title {
-        font-size: 25px;
+        font-size: 20px;
+    }
+    .long-title {
+        font-size: 18px;
     }
     .cent-title {
         display: none;
+    }
+    .proj-image {
+        padding-bottom: 20px;
     }
     .contact-fa {
         font-size: 1em;
     }
     p {
-        font-size: 18px;
         padding-top: 30px;
         padding-bottom: 30px;
+        width: 90%;
+    }
+    .contact-fa {
+        padding-left: 8.5%;
+    }
+}
+@media only screen and (max-width:480px) {
+    .about-tab, .portfolio-tab, .contact-tab, {
+        height: 25px;
+    }
+    .tabs-div {
+        margin-bottom: -1px;
+        margin-top: 10px;
+    }
+    .tab-txt {
+        font-size: 8px;
+        margin-top: 8px;
+    }
+    .title {
+        font-size: 15px;
+    }
+    .long-title {
+        font-size: 12px;
+    }
+    .proj-image {
+        padding-bottom: 20px;
+    }
+    p {
+        font-size: 15px;
+    }
+    .contact-fa {
+        padding-left: 8%;
     }
 }
